@@ -24,24 +24,6 @@ html, body {
     display: flex;
 }
 
-@media screen and (min-width: 526px) {
-    div.panel {
-        font-size: 3rem 
-    }
-}
-
-@media screen and (min-width: 301px) and (max-width: 525px) {
-    div.panel {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    div.panel {
-        font-size: 1.5rem;
-    }
-}
-
 .panel {
     color: var(--color-white);
     flex: 1;
@@ -117,4 +99,21 @@ p {
 a, a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
     color: inherit;
+}
+
+/* responsive text size */
+@media screen and (min-width: 526px) {
+    div.panel {
+        font-size: 3rem 
+    }
+}
+@media screen and (min-width: 301px) and (max-width: 525px) {
+    div.panel {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    div.panel {
+        font-size: 1.5rem;
+    }
 }
