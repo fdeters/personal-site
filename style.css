@@ -13,7 +13,8 @@ html, body {
     font-size: 62.5%;
     font-family: 'lato';
     font-weight: 800;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 *, *:before, *:after {
@@ -35,8 +36,14 @@ header {
     word-spacing: .8rem;
 }
 
+nav {
+    height: 100%;
+    width: 100vw;
+}
+
 .panel-container {
-    height: 100vh;
+    height: 100%;
+    width: 100vw;
     display: flex;
 }
 
