@@ -111,6 +111,7 @@ button {
     border: none;
     border-right: .1rem solid var(--color-offwhite);
     border-left: .1rem solid var(--color-offwhite);
+    padding: 0;
     padding-top: 1rem;
     padding-bottom: 1.3rem;
     background-color: var(--color-black);
